@@ -1,0 +1,215 @@
+/* Needs a Selector, property, and value.  */
+/* Complete line is called a Declaration. Many inside curly braces is a block of declaration. */
+body, html {
+margin: 0;
+padding: 0;
+}
+.kitten img {
+    width: 200px;
+}
+
+h1 {
+    color:pink;
+    font-size: 50px;
+    font-family: 'Glass Antiqua', cursive;
+    font-family: 'Noto Serif Balinese', serif;
+    margin:0%;
+    text-align: center;
+}
+h2 {
+    color:pink
+    font-family: 'Glass Antiqua', cursive;
+    font-family: 'Noto Serif Balinese', serif;
+    margin:0%;
+    font-size: 40px;
+}
+
+p1 {
+    color:pink
+    font-family: 'Glass Antiqua', cursive;
+    font-family: 'Noto Serif Balinese', serif;
+    margin:0%;
+    font-size: 27px;
+}
+
+.contact-button {
+    margin-top: 20px; /* Adjust the margin-top value to create space between the button and the content above it */
+}
+.contact-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: pink; /* Choose your desired background color */
+    color: #fff; /* Choose your desired text color */
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid black; /* Border color same as background color */
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Smooth transition on hover */
+    margin-bottom: 10px; /* Add margin to the bottom of the button */
+}
+.contact-link:hover {
+    background-color: #c71585; /* Darker blue color on hover */
+    color: #fff; /* Change text color on hover if needed */
+    border-color: #c71585; /* Darker blue border color on hover */
+}
+
+.get-started-section {
+    /* Additional styles for the section containing the image, if needed */
+    /* For example, you might want to set a specific height or add padding */
+    height: 140vh; /* Set the height of the section to 100% of the viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-started-section img {
+    width: 100%; /* Make the image fill the entire width of its container */
+    height: 100%; /* Make the image fill the entire height of its container */
+    object-fit: cover; /* Ensure the image covers the entire container while maintaining aspect ratio */
+}
+.get-started-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: pink; /* Choose your desired background color */
+    color: #fff; /* Choose your desired text color */
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition on hover */ 
+    margin-bottom: 10px; /* Add margin to the bottom of the button */
+}
+
+.get-started-button:hover {
+    background-color:#c71585; /* Change to a slightly different shade on hover */
+    color: #fff; /* Change text color on hover if needed */
+    border-color: #c71585; /* Dark pink border color on hover */
+}
+
+header {
+    text-align: left;
+    margin: 0%;
+    font-family: 'Glass Antiqua', cursive;
+    font-family: 'Noto Serif Balinese', serif;
+    color:pink
+}
+
+main {
+    text-align:left;
+    margin: 0 auto;
+    font-family: 'Glass Antiqua', cursive;
+    font-family: 'Noto Serif Balinese', serif;
+    font-size: 20px;
+    color: pink;
+} 
+
+main {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the main content */
+
+}
+
+/* .flex-container {
+    /* display: flex;
+    text-align:left; /* Align items vertically in the center */
+    margin: 0 auto;
+    font-family: 'Glass Antiqua', cursive;
+    font-family: 'Noto Serif Balinese', serif;
+    font-size: 10px; */
+    overflow: hidden; */
+    
+}
+
+.text-content {
+    /* flex: 1; /* Take up most of the width, but allow flexibility to wrap on smaller screens */
+    margin: 20; */
+    font-family: 'Glass Antiqua', cursive;
+    font-family: 'Noto Serif Balinese', serif;
+    font-size: 27px;
+    float: left;
+    width: 50%;
+}
+
+.image-container {
+    float: right;
+    width:40%;
+    /* margin-left: 20px; 
+    /* Add space between the paragraph and the image */
+    flex: 1; Take up the remaining width */
+}
+
+.image-container img {
+    height: auto; /* Maintain the aspect ratio of the image */
+    width: 50%; /* Ensure the image takes up 100% of the width of its container */
+    float:right;
+}
+
+.chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:pink;
+    padding:10px 20px;
+    cursor:pointer;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.chat-icon {
+    margin: right 8px;
+    color: white;
+}
+/* Styling for the navigation bar */
+nav {
+    background-color:pink; /* Adjust as needed */
+    height: 50px;
+    border: 2px solid black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 100%; /* Ensure the navigation links take up the full height of the bar */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; * Center the content vertically */
+    font-family: 'Glass Antiqua', cursive;
+    font-family: 'Noto Serif Balinese', serif;
+}
+
+nav li {
+    margin-right: 150px; /* Adjust the spacing between navigation items */
+   
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* Adjust as needed */
+    text-align:center;
+}
+
+footer {
+    background-color: #333; /*  background color for the footer */
+    color: #fff; /* Choose your desired text color for the footer */
+    padding: 2px;
+    text-align: center;
+    font-family: 'Glass Antiqua', cursive;
+    font-family: 'Noto Serif Balinese', serif;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 10px; /* Add margin between the navigation links in the footer */
+}
+
+footer nav ul li a {
+    color: #fff; 
+    text-decoration: none;
+}
